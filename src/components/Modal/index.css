@@ -1,0 +1,53 @@
+.ReactModal__Content {
+    width: 400px;
+    left: 0;
+    height: 800px;
+    background-color: transparent;
+    border: 0px;
+}
+.ReactModal__Content--after-open{
+    border: 0px;
+    background-color: blue;
+}
+.sign-in {
+    background-color: rgb(1, 1, 62);
+    color: white;
+    padding: 6px;
+    display: flex;
+    gap: 10px;
+    width: 350px;
+}
+.sign-in > .person-icon {
+    align-self: center;
+    background-color: transparent;
+}
+.sign-in > h3 {
+    font-weight: bold;
+    align-self: center;
+}
+.close-icon {
+    background-color: transparent;
+    border: none;
+    height: 10px;
+    margin-top: 50px;
+}
+
+.list-view-all {
+    overflow: scroll;
+    height: 700px;
+    padding: 0px;
+    background-color: white;
+}
+.list-view-all > ul {
+    list-style: none;
+}
+.list-view-all > ul > li {
+    margin: 10px;
+}
+.list-view-all > ul > .see-all > ul {
+    list-style: none;
+    margin-left: -30px;
+}
+.list-view-all > ul > .see-all > ul > li {
+    margin: 10px;
+}

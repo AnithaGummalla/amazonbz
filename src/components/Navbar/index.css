@@ -1,0 +1,29 @@
+.navbar {
+  background-color: rgb(1, 1, 62);
+  font-size: 10;
+  color: white;
+  height: 45px;
+}
+.navbar-brand {
+  display: flex;
+}
+.navbar-nav > li > a {
+  color: white;
+}
+.navbar > .container-fluid > a {
+  color: white;
+}
+.nav-item {
+  align-self: center;
+}
+.nav-item > .nav-link {
+  font-size: 10;
+}
+.navbar-brand:hover,
+.nav-item > .nav-link:hover {
+  border: 1px solid white;
+  color: white;
+}
+.navbar-nav {
+  width: 100%;
+}

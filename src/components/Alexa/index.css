@@ -1,0 +1,16 @@
+.menu-h {
+    display: flex;
+    margin: 20px;
+}
+.menu-h > span {
+    align-self: center;
+}
+.menu-h > h6 {
+    margin: 10px;
+}
+.menu-h-list > ul {
+    list-style: none;
+}
+.menu-h-list > ul > li {
+    margin: 20px;
+}
